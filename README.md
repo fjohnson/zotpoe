@@ -1,5 +1,9 @@
 # About 
-A little example using RAG in a poe.com bot. 
+A little example using RAG in a Poe.com bot. What's a poe bot you ask? Poe.com is a service that lets you converse with 
+a wide variety of different LLMs (GPT-3, GPT-4, Llama, Mistral, Claude, etc). A poe bot acts as middle where and receives 
+the chat messages a user has addressed to the bot on poe.com and then forwards these messages, after whatever logic is implemented,
+to an LLM on poe.com. The bot then gets the reply from the LLM, does more logic, and sends it back to the user.
+The beauty is that poe.com hosts the LLMs and does inference for you - and they do it for free... for now. 
 
 For the dataset I've chosen a set of 3824 news articles from 2016-2017 (See: https://doi.org/10.7910/DVN/GMFCTR)
 
