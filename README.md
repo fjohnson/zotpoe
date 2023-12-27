@@ -27,11 +27,10 @@ Bot settings are updated via a post as such
 `curl -X POST https://api.poe.com/bot/fetch_settings/<botname>/<access_key>`
 See more about that [here](https://developer.poe.com/server-bots/updating-bot-settings)
 
-## Extra 
-If you want to get a handle on how to create your own bot, take a look at `SimpleBot.py` as it will show you how to 
-receive and send messages from Poe.com
-
 ## Conversing with the bot
 Talk with the bot on poe.com. You should see info on your machine's terminal, specifically the prompt that is being sent to poe.com
 after appropriate articles have been found in the vector database.
-  
+
+## Extra 
+If you want to get a handle on how to create your own bot, take a look at `SimpleBot.py` as it will show you how to 
+receive and send messages from Poe.com
