@@ -34,3 +34,6 @@ after appropriate articles have been found in the vector database.
 ## Extra 
 If you want to get a handle on how to create your own bot, take a look at `SimpleBot.py` as it will show you how to 
 receive and send messages from Poe.com
+
+## Example action on Poe.com
+![capture](https://github.com/fjohnson/zotpoe/blob/master/example_output.PNG)
